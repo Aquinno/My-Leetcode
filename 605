@@ -15,3 +15,5 @@ public class Solution {
         }
     }
 }
+
+//If the array Length was < 128, i would use byte instead of int
