@@ -9,7 +9,7 @@ var largestAltitude = function(gain) {
     for (let i = 0; i < gain.length; i++){
         alt += gain[i];
         array.push(alt);
-        if (alt >= 0){
+        if (alt > high){
             high = alt
         }
     }
